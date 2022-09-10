@@ -1,0 +1,251 @@
+/*
+*/
+/* 
+    Created on : 21/08/2022, 20:16:15
+    Author     : carin
+*/
+
+
+.registedLine{
+    margin-left: 5%;
+}
+
+.availableVideos{
+    padding: 1%;
+    margin-left: 5%;
+    
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 80%;
+    
+}
+
+.availableVideos:hover{
+     background: #C6ECC4;
+}
+
+.noVideosWarning{
+    padding: 1%;
+    margin-left: 5%;
+}
+
+
+
+body{
+    background-color: #F1EBEB;
+}
+
+
+/* Video em análise (título)*/
+.title{
+    background-color: #D8D0D0;
+    padding: 1%;
+    margin-left: 2%;
+    
+    width: 58%;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+
+
+.middleDiv{
+    width:95%;
+    margin-left: 5%;
+}
+
+
+.classSelect{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.selectsContainer{
+        
+    height: 200px;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    margin: 1%;
+}
+
+.videoContainer{
+    background-color: #D8D0D0; 
+    
+    border: 2px solid black;
+    border-radius: 4px;
+     
+    
+    /* parte da divisão em duas colunas */
+    float: left;
+    width: 59%;
+    
+}
+
+
+.video{
+    padding-left: 2.5%;
+    height: auto;
+    width: 95%;
+}
+
+.previousNextDiv{
+    /*background-color: aqua;*/
+    
+    padding-bottom: 2.5%;
+    text-align: center;
+    
+}
+
+.previousButton{
+    margin-right: 10%;
+    
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.previousButton:hover{
+     background: #DCDADA;
+}
+
+.nextButton{
+    margin-left: 10%;
+    
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.nextButton:hover{
+     background: #DCDADA;
+}
+
+
+.filterDiv{
+    background-color: #D8D0D0;
+    padding: 2% 5% 1% 1%;
+    
+}
+
+.eventsContainer{
+    
+    border: 2px solid black;
+    border-radius: 4px;
+    
+    /* parte da divisão em duas colunas */
+    float: left;
+    width: 30%;
+    
+    background-color: #E5E1E1;
+    
+}
+
+.start{
+    padding: 6%;
+}
+.end{
+    padding: 4%;
+}
+
+.prob{
+    padding: 6%;
+}
+
+.start_time{
+    padding: 7%;
+    
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 90%;
+}
+.end_time{
+    padding: 4%;
+    
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.prob_{
+    padding: 5%;
+    
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.eventDivs{
+    padding:1% 1% 1% 0%;
+}
+
+
+.bottomDiv{
+    background-color: #D8D0D0;
+    width: 100%;
+    float: right;
+}
+
+.buttonDiv{
+    /* background-color: #ACA9A9;*/
+    float: right;
+    padding:1%;
+    
+}
+
+.sortButtn{
+    /* background-color: #ACA9A9;*/
+    margin: 1%;
+    
+}
+
+
+/* adjustable screen to window*/
+@media screen and (min-width: 400px) {
+  .videoContainer{
+    width: 59%;
+  }
+  
+  .eventsContainer{
+    margin-top: 2%;
+    width: 80%;
+  }
+  
+  .selectsContainer{
+    height: 150px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .videoContainer {
+    width: 54%;
+    margin-right: 2%;
+  }
+  
+  .eventsContainer{
+    margin-top: 0%;
+    width: 40%;
+  }
+  
+  .selectsContainer{
+    height: 500px;
+  }
+}
+
